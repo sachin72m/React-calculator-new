@@ -32,7 +32,7 @@ function App() {
         }
         break;
       case "=":
-        setresult(eval(result));
+        setresult(value(result));
         break;
       case "c":
         setresult("");
